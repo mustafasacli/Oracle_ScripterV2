@@ -40,7 +40,7 @@
         {
             return @"SELECT *
                      FROM ALL_SOURCE
-                     WHERE OWNER = 'ISKUR'
+                     WHERE OWNER = '#SCHEMA#'
                      AND NAME='#OBJECTNAME#'
                      ORDER BY LINE";
         }
